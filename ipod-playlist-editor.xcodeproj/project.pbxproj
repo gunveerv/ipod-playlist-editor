@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		36C474EC2F89C23400951CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C474D22F89C23200951CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C474D92F89C23200951CF9;
+			remoteInfo = "ipod-playlist-editor";
+		};
+		36C474F62F89C23400951CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C474D22F89C23200951CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C474D92F89C23200951CF9;
+			remoteInfo = "ipod-playlist-editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36C474DA2F89C23200951CF9 /* ipod-playlist-editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ipod-playlist-editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C474EB2F89C23400951CF9 /* ipod-playlist-editorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ipod-playlist-editorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C474F52F89C23400951CF9 /* ipod-playlist-editorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ipod-playlist-editorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		36C474DC2F89C23200951CF9 /* ipod-playlist-editor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ipod-playlist-editor";
+			sourceTree = "<group>";
+		};
+		36C474EE2F89C23400951CF9 /* ipod-playlist-editorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ipod-playlist-editorTests";
+			sourceTree = "<group>";
+		};
+		36C474F82F89C23400951CF9 /* ipod-playlist-editorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ipod-playlist-editorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C474D72F89C23200951CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C474E82F89C23400951CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C474F22F89C23400951CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36C474D12F89C23200951CF9 = {
+			isa = PBXGroup;
+			children = (
+				36C474DC2F89C23200951CF9 /* ipod-playlist-editor */,
+				36C474EE2F89C23400951CF9 /* ipod-playlist-editorTests */,
+				36C474F82F89C23400951CF9 /* ipod-playlist-editorUITests */,
+				36C474DB2F89C23200951CF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36C474DB2F89C23200951CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C474DA2F89C23200951CF9 /* ipod-playlist-editor.app */,
+				36C474EB2F89C23400951CF9 /* ipod-playlist-editorTests.xctest */,
+				36C474F52F89C23400951CF9 /* ipod-playlist-editorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36C474D92F89C23200951CF9 /* ipod-playlist-editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C474FF2F89C23400951CF9 /* Build configuration list for PBXNativeTarget "ipod-playlist-editor" */;
+			buildPhases = (
+				36C474D62F89C23200951CF9 /* Sources */,
+				36C474D72F89C23200951CF9 /* Frameworks */,
+				36C474D82F89C23200951CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				36C474DC2F89C23200951CF9 /* ipod-playlist-editor */,
+			);
+			name = "ipod-playlist-editor";
+			packageProductDependencies = (
+			);
+			productName = "ipod-playlist-editor";
+			productReference = 36C474DA2F89C23200951CF9 /* ipod-playlist-editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36C474EA2F89C23400951CF9 /* ipod-playlist-editorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C475022F89C23400951CF9 /* Build configuration list for PBXNativeTarget "ipod-playlist-editorTests" */;
+			buildPhases = (
+				36C474E72F89C23400951CF9 /* Sources */,
+				36C474E82F89C23400951CF9 /* Frameworks */,
+				36C474E92F89C23400951CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C474ED2F89C23400951CF9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				36C474EE2F89C23400951CF9 /* ipod-playlist-editorTests */,
+			);
+			name = "ipod-playlist-editorTests";
+			packageProductDependencies = (
+			);
+			productName = "ipod-playlist-editorTests";
+			productReference = 36C474EB2F89C23400951CF9 /* ipod-playlist-editorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36C474F42F89C23400951CF9 /* ipod-playlist-editorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C475052F89C23400951CF9 /* Build configuration list for PBXNativeTarget "ipod-playlist-editorUITests" */;
+			buildPhases = (
+				36C474F12F89C23400951CF9 /* Sources */,
+				36C474F22F89C23400951CF9 /* Frameworks */,
+				36C474F32F89C23400951CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C474F72F89C23400951CF9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				36C474F82F89C23400951CF9 /* ipod-playlist-editorUITests */,
+			);
+			name = "ipod-playlist-editorUITests";
+			packageProductDependencies = (
+			);
+			productName = "ipod-playlist-editorUITests";
+			productReference = 36C474F52F89C23400951CF9 /* ipod-playlist-editorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36C474D22F89C23200951CF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					36C474D92F89C23200951CF9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					36C474EA2F89C23400951CF9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 36C474D92F89C23200951CF9;
+					};
+					36C474F42F89C23400951CF9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 36C474D92F89C23200951CF9;
+					};
+				};
+			};
+			buildConfigurationList = 36C474D52F89C23200951CF9 /* Build configuration list for PBXProject "ipod-playlist-editor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36C474D12F89C23200951CF9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 36C474DB2F89C23200951CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C474D92F89C23200951CF9 /* ipod-playlist-editor */,
+				36C474EA2F89C23400951CF9 /* ipod-playlist-editorTests */,
+				36C474F42F89C23400951CF9 /* ipod-playlist-editorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36C474D82F89C23200951CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C474E92F89C23400951CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C474F32F89C23400951CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C474D62F89C23200951CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C474E72F89C23400951CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C474F12F89C23400951CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36C474ED2F89C23400951CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C474D92F89C23200951CF9 /* ipod-playlist-editor */;
+			targetProxy = 36C474EC2F89C23400951CF9 /* PBXContainerItemProxy */;
+		};
+		36C474F72F89C23400951CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C474D92F89C23200951CF9 /* ipod-playlist-editor */;
+			targetProxy = 36C474F62F89C23400951CF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36C474FD2F89C23400951CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36C474FE2F89C23400951CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		36C475002F89C23400951CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ipod-playlist-editor/ipod_playlist_editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ipod-playlist-editor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "macos-app.ipod-playlist-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		36C475012F89C23400951CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ipod-playlist-editor/ipod_playlist_editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ipod-playlist-editor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "macos-app.ipod-playlist-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		36C475032F89C23400951CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "macos-app.ipod-playlist-editorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipod-playlist-editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ipod-playlist-editor";
+			};
+			name = Debug;
+		};
+		36C475042F89C23400951CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "macos-app.ipod-playlist-editorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipod-playlist-editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ipod-playlist-editor";
+			};
+			name = Release;
+		};
+		36C475062F89C23400951CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "macos-app.ipod-playlist-editorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ipod-playlist-editor";
+			};
+			name = Debug;
+		};
+		36C475072F89C23400951CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "macos-app.ipod-playlist-editorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ipod-playlist-editor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C474D52F89C23200951CF9 /* Build configuration list for PBXProject "ipod-playlist-editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C474FD2F89C23400951CF9 /* Debug */,
+				36C474FE2F89C23400951CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C474FF2F89C23400951CF9 /* Build configuration list for PBXNativeTarget "ipod-playlist-editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C475002F89C23400951CF9 /* Debug */,
+				36C475012F89C23400951CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C475022F89C23400951CF9 /* Build configuration list for PBXNativeTarget "ipod-playlist-editorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C475032F89C23400951CF9 /* Debug */,
+				36C475042F89C23400951CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C475052F89C23400951CF9 /* Build configuration list for PBXNativeTarget "ipod-playlist-editorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C475062F89C23400951CF9 /* Debug */,
+				36C475072F89C23400951CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36C474D22F89C23200951CF9 /* Project object */;
+}
