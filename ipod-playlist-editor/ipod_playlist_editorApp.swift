@@ -11,7 +11,6 @@ import SwiftUI
 struct ipod_playlist_editorApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView(fileManager: <#FileManager#>)
             ContentView()
         }
         .defaultSize(width: 450, height: 125)

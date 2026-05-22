@@ -8,21 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
-//    var fileManager: FileManager
-    @State var isShowing = false
-    @State var pathToPlayer = FileManager.default.currentDirectoryPath
-//    @State var isFileStructCorrect = fileManager.fileExists(atPath: pathToPlayer)
+    @State var fm = FileManager.default // filemanager service
+    @State var isShowing = false // file importer view
+    @State var pathToPlayer = FileManager.default.currentDirectoryPath // path to ipod music files
+    @State var isPlayerFolderValid = false //bool for file struct
+    @State var correctFolderStrut = false
+    
     var body: some View {
         VStack {
+            
             HStack {
                 Image(systemName: "ipod")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
+                
                 Text(pathToPlayer)
                     .frame(width: 350, height: 20)
                     .truncationMode(.tail)
                     .font(.system(size: 11))
             }
+            
             Button("Select Folder") {
                 isShowing = true
             }
@@ -32,15 +37,23 @@ struct ContentView: View {
                     
                 case .success(let path):
                     // handle success path
-//                    print(path.absoluteString)
                     pathToPlayer = path.relativePath
+                    // update file structure bool based on new path
+                    isPlayerFolderValid = fm.fileExists(atPath: pathToPlayer)
+                    correctFolderStrut = fm.fileExists(atPath: pathToPlayer+"/Music") && fm.fileExists(atPath: pathToPlayer+"/Playlists")
+                    
                     
                 case .failure(let error):
                     // handle error
                     print(error)
                 }
             }
-            Text("")
+            
+            // for successful path folders
+            if isPlayerFolderValid {
+                Text(String(correctFolderStrut))
+            }
+            
         }
         .padding()
         .frame(minWidth: 450, minHeight: 125)
