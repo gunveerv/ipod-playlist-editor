@@ -52,6 +52,16 @@ struct ContentView: View {
             // for successful path folders
             if isPlayerFolderValid {
                 Text(String(correctFolderStrut))
+                FolderView()
+            } else {
+                HStack {
+                    Image(systemName: "xmark.app.fill")
+                        .imageScale(.large)
+                        .foregroundStyle(Color.red)
+                    
+                    Text("The current folder is missing the `Music` and/or `Playlists` folder(s)")
+                        .font(.system(size: 11))
+                }
             }
             
         }
